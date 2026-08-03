@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Whale Note</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:
+    Inter,
+    "Segoe UI",
+    "Microsoft YaHei",
+    sans-serif;
+    color:#222;
+    background:#fff;
+}
+
+
+header{
+    height:70px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 70px;
+    border-bottom:1px solid #eee;
+    position:fixed;
+    top:0;
+    width:100%;
+    background:rgba(255,255,255,.85);
+    backdrop-filter:blur(12px);
+}
+
+
+.logo{
+    font-size:22px;
+}
+
+
+nav a{
+    margin-left:30px;
+    color:#666;
+    text-decoration:none;
+}
+
+
+nav a:hover{
+    color:#111;
+}
+
+
+
+.hero{
+
+    height:100vh;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+    text-align:center;
+
+}
+
+
+.logo-icon{
+
+    font-size:70px;
+
+    margin-bottom:30px;
+
+}
+
+
+
+h1{
+
+    font-size:64px;
+
+    font-weight:400;
+
+    letter-spacing:-3px;
+
+}
+
+
+.desc{
+
+    margin-top:25px;
+
+    font-size:22px;
+
+    color:#777;
+
+}
+
+
+
+.buttons{
+
+    margin-top:45px;
+
+}
+
+
+.btn{
+
+    display:inline-block;
+
+    padding:14px 35px;
+
+    border-radius:10px;
+
+    text-decoration:none;
+
+    margin:0 8px;
+
+    font-size:16px;
+
+}
+
+
+
+.primary{
+
+    background:#222;
+
+    color:white;
+
+}
+
+
+.secondary{
+
+    border:1px solid #ddd;
+
+    color:#333;
+
+}
+
+
+
+section.features{
+
+    padding:100px 12%;
+
+}
+
+
+
+.features h2{
+
+    text-align:center;
+
+    font-size:40px;
+
+    font-weight:400;
+
+    margin-bottom:60px;
+
+}
+
+
+
+.grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(260px,1fr));
+
+    gap:35px;
+
+}
+
+
+
+.card{
+
+    border:1px solid #eee;
+
+    padding:35px;
+
+    border-radius:18px;
+
+}
+
+
+
+.card h3{
+
+    font-weight:400;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.card p{
+
+    color:#777;
+
+    line-height:1.8;
+
+}
+
+
+
+.download{
+
+    text-align:center;
+
+    padding:120px 20px;
+
+    background:#fafafa;
+
+}
+
+
+
+.download h2{
+
+    font-size:42px;
+
+    font-weight:400;
+
+}
+
+
+
+footer{
+
+    padding:40px;
+
+    text-align:center;
+
+    color:#999;
+
+}
+
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+<header>
+
+<div class="logo">
+🐋 Whale Note
+</div>
+
+
+<nav>
+
+<a href="#features">
+功能
+</a>
+
+<a href="#download">
+下载
+</a>
+
+<a href="#">
+文档
+</a>
+
+</nav>
+
+</header>
+
+
+
+
+<div class="hero">
+
+
+<div class="logo-icon">
+🐋
+</div>
+
+
+<h1>
+Whale Note
+</h1>
+
+
+<div class="desc">
+一个简洁、优雅的 Markdown 编辑器
+</div>
+
+
+<div class="buttons">
+
+<a class="btn primary" href="#">
+立即下载
+</a>
+
+
+<a class="btn secondary" href="#">
+GitHub
+</a>
+
+</div>
+
+
+</div>
+
+
+
+
+
+<section class="features" id="features">
+
+
+<h2>
+为写作而生
+</h2>
+
+
+<div class="grid">
+
+
+<div class="card">
+
+<h3>
+Markdown
+</h3>
+
+<p>
+支持 Markdown 写作，
+让内容专注于文字本身。
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>
+简洁编辑
+</h3>
+
+<p>
+干净的编辑界面，
+减少干扰，提高效率。
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>
+多平台支持
+</h3>
+
+<p>
+支持 Windows、macOS 和 Linux。
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>
+未来扩展
+</h3>
+
+<p>
+更多功能正在开发中。
+</p>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+<section class="download" id="download">
+
+<h2>
+开始使用 Whale Note
+</h2>
+
+<br>
+
+<a class="btn primary" href="#">
+下载 Whale Note
+</a>
+
+
+</section>
+
+
+
+
+<footer>
+
+© 2026 Whale Note
+
+</footer>
+
+
+</body>
+
+</html>
