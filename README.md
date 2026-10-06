@@ -1,1 +1,0 @@
-# whalenote.github.io
